@@ -1,5 +1,5 @@
 import bcrypt from "bcrypt";
-import client from "../client";
+import client from "../../client";
 
 export default {
     Mutation: {
@@ -44,5 +44,5 @@ export default {
                     return e;
                 }
             },
-    },
-};
+        }
+    };
