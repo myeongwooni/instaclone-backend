@@ -31,7 +31,7 @@ export default {
                 //console.log(uglyPassword);
 
                 //3. save and return the user
-                return client.user.create({
+                await client.user.create({
                     data:{
                         username, 
                         email, 
@@ -40,9 +40,15 @@ export default {
                         password:uglyPassword,
                     },
                 });
-                } catch(e) {
-                    return e;
-                }
-            },
-        }
-    };
+                return {
+                    ok: true
+                };
+            } catch(e) {
+                return {
+                    ok: false,
+                    error: "Can't create account.",
+                };
+            }
+        },
+    },
+}
