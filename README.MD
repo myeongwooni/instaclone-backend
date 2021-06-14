@@ -25,13 +25,13 @@ Instaclone Backend.
 - [x] Edit Photo
 - [x] Like / Unlike Photo
 - [x] See Photo Likes
-- [ ] See Feed
-- [ ] See Photo Comments
+- [x] See Feed
+- [x] See Photo Comments
 - [ ] Delete Photo
 
 ## Comments
 
-- [ ] Comment on Photo
+- [x] Comment on Photo
 - [ ] Delete Comment
 - [ ] Edit Comment
 
