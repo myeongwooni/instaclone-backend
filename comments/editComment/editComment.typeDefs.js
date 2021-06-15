@@ -2,8 +2,9 @@ import { gql } from "apollo-server-express";
 
 export default gql`
     type Mutation {
-        deletePhoto(
+        editComment(
             id: Int!
-        ): MutationResponse
+            payload: String!
+        ): MutationResponse!
     }
 `;
