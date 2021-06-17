@@ -41,11 +41,11 @@ Instaclone Backend.
 
 ## Extras
 
-- [ ] S3 Image Upload
+- [ ] S3 Image Upload ; 에러로 잠시 보류 createReadStream is not a function
 
 ## DMs
 
-- [ ] See Rooms
+- [x] See Rooms
 - [ ] Send Message (Create Room)
 - [ ] See Room
 - [ ] Computed Fields
